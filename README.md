@@ -34,17 +34,17 @@ Quatro demonstrações executáveis que ligam o bug de 1970 às vulnerabilidades
 - **Auditoria antes de commit.** Nada entra sem revisão de segurança e de design, mesmo quando o código foi gerado com assistência de IA — principalmente quando foi.
 - **Registro contínuo.** Decisões arquiteturais viram ADR, não memória. Já reverti conclusões minhas quando a evidência não sustentou.
 
-Rotina diária: leitura técnica dirigida, prática de código escrita à mão e um registro de decisões versionado. Sustento isso em paralelo a um emprego de tempo integral desde 2025.
+Rotina diária: leitura técnica dirigida, prática de código escrita à mão e um registro de decisões versionado. O gráfico de contribuições aqui embaixo é o registro disso, mantido em paralelo a um emprego de tempo integral.
 
 ---
 
 ## Stack
 
-- **Backend** Python 3.13 · FastAPI · PostgreSQL · Supabase (RLS, pgvector) · pytest
-- **Segurança** OWASP LLM Top 10 · controle de acesso por capability · modelagem de ameaças · guardrails determinísticos
-- **Infra** Git · GitHub Actions (CI) · Docker · Linux
-- **Web** TypeScript · Next.js · Tailwind
-- **Certificação** Segurança da Informação — Santander Open Academy / DIO
+**Backend** Python 3.13 · FastAPI · PostgreSQL · Supabase (RLS, pgvector) · pytest
+**Segurança** OWASP LLM Top 10 · controle de acesso por capability · modelagem de ameaças · guardrails determinísticos
+**Infra** Git · GitHub Actions (CI) · Docker · Linux
+**Web** TypeScript · Next.js · Tailwind
+**Certificação** Segurança da Informação — Santander Open Academy / DIO
 
 ---
 
