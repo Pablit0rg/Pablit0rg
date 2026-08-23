@@ -40,11 +40,11 @@ Rotina diária: leitura técnica dirigida, prática de código escrita à mão e
 
 ## Stack
 
-**Backend** Python 3.13 · FastAPI · PostgreSQL · Supabase (RLS, pgvector) · pytest
-**Segurança** OWASP LLM Top 10 · controle de acesso por capability · modelagem de ameaças · guardrails determinísticos
-**Infra** Git · GitHub Actions (CI) · Docker · Linux
-**Web** TypeScript · Next.js · Tailwind
-**Certificação** Segurança da Informação — Santander Open Academy / DIO
+- **Backend** Python 3.13 · FastAPI · PostgreSQL · Supabase (RLS, pgvector) · pytest
+- **Segurança** OWASP LLM Top 10 · controle de acesso por capability · modelagem de ameaças · guardrails determinísticos
+- **Infra** Git · GitHub Actions (CI) · Docker · Linux
+- **Web** TypeScript · Next.js · Tailwind
+- **Certificação** Segurança da Informação — Santander Open Academy / DIO
 
 ---
 
