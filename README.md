@@ -14,6 +14,8 @@ Software moderno delega decisões a componentes que **não conseguem distinguir 
 
 O nome do problema é antigo — *confused deputy*, o "delegado confuso". A conclusão prática também: **não adianta pedir para o componente se comportar melhor. A permissão precisa ser negada por fora, em código determinístico, por algo que não pode ser persuadido.**
 
+Na prática, isso virou uma regra de projeto: **IA com acesso a dados e dinheiro precisa de autoridade verificada em código.** Aprendi isso construindo. Num protótipo financeiro gerado por IA, o modelo somou um freela parcelado inteiro e mostrou **+1,4 mês** de fôlego, quando a conta certa dava **+0,2**. Desde então, a conta não fica a cargo do modelo.
+
 É essa a linha que atravessa o meu trabalho.
 
 ---
@@ -23,7 +25,27 @@ O nome do problema é antigo — *confused deputy*, o "delegado confuso". A conc
 ### [`confused-deputy-demo`](https://github.com/Pablit0rg/confused-deputy-demo)
 Quatro demonstrações executáveis que ligam o bug de 1970 às vulnerabilidades de agentes de IA catalogadas pela OWASP em 2026. Cada ataque tem um teste que **asserta que a exploração funciona** na versão vulnerável — e para de funcionar na versão corrigida por capability. Python puro, biblioteca padrão, sem dependência externa. Bilíngue EN/PT.
 
+### [`flyup-folego`](https://github.com/Pablit0rg/flyup-folego)
+MVP publicado ([flyup-folego.lovable.app](https://flyup-folego.lovable.app)) para quem está em transição de carreira: quantos meses você aguenta se der o salto. O cálculo é determinístico e roda no navegador — **os valores financeiros nunca saem dele**. O servidor guarda só o contato, com consentimento explícito (LGPD). Row Level Security em todas as tabelas, apenas a chave pública no front-end, e auditoria do bundle publicado e do histórico do repositório antes de abrir o código. TypeScript · Lovable Cloud (Supabase).
+
+### Crivo *(em construção)*
+Analisador de currículo para sistemas ATS. O match entre vaga e currículo é calculado em código, sem IA e sem adivinhação: o mesmo texto sempre dá o mesmo resultado. A IA só entra sob demanda, para reescrever, e passa por uma **verificação de fidelidade** que barra qualquer experiência que não esteja no currículo original. Vaga e currículo são tratados como dados, nunca como instrução.
+
 *Em preparação:* um estudo sobre por que a defesa mais recomendada contra prompt injection (filtrar a entrada) falha na prática, e o que funciona no lugar dela; e um sobre uma falha silenciosa em busca vetorial que descarta a maior parte dos resultados corretos sem gerar erro nenhum.
+
+---
+
+## Mapa: a mesma pergunta em domínios diferentes
+
+Cada projeto responde a mesma pergunta — **quem garante o número, ou a ação, em que a IA se apoia?**
+
+1. **Produto** — FlyUp: o cálculo fica no código, não no modelo. *Publicado.*
+2. **Regra em código** — Crivo: match determinístico e fidelidade verificada. *Em construção.*
+3. **Ataque** — prompt injection contra o próprio FlyUp, para medir o que a defesa em código segura. *Planejado.*
+4. **Defesa** — detecção de anomalias em transações financeiras. *Planejado.*
+5. **Agente seguro** — agente de análise somente leitura, com permissão verificada em código e nunca decidida pelo modelo. *Planejado.*
+
+Os projetos acompanham bootcamps de IA, dados e cibersegurança que estou cursando; o tema de cada um segue o que o curso pede, e a camada de segurança é o meu acréscimo.
 
 ---
 
@@ -81,11 +103,21 @@ Modern software delegates decisions to components that **cannot tell an instruct
 
 The problem has an old name — the *confused deputy* — and an old conclusion: **you can't ask the component to behave better. The permission has to be denied from the outside, by deterministic code that cannot be talked out of it.**
 
+In practice, that became a design rule: **AI with access to data and money needs authority verified in code.** I learned it by building. In an AI-generated financial prototype, the model added up an entire instalment-based freelance payment and showed **+1.4 months** of runway when the correct figure was **+0.2**. Since then, the math never stays with the model.
+
 ### Repositories
 
 **[`confused-deputy-demo`](https://github.com/Pablit0rg/confused-deputy-demo)** — Four runnable demos connecting the 1970s bug to the AI-agent vulnerabilities catalogued by OWASP in 2026. Each attack ships with a test that **asserts the exploit succeeds** against the vulnerable build, and stops succeeding once capability-based mitigation is in place. Pure Python, standard library only.
 
+**[`flyup-folego`](https://github.com/Pablit0rg/flyup-folego)** — Published MVP ([flyup-folego.lovable.app](https://flyup-folego.lovable.app)) for people changing careers: how many months you can last if you make the jump. The calculation is deterministic and runs in the browser — **financial values never leave it**. The server stores only contact details, with explicit consent (LGPD). Row Level Security on every table, publishable key only on the front end, and an audit of the deployed bundle and repository history before opening the code.
+
+**Crivo** *(in progress)* — ATS résumé analyser. Job-to-résumé matching is computed in code, with no AI and no guessing. AI only steps in on request to rewrite, behind a **fidelity check** that blocks any experience not present in the original résumé. Job posts and résumés are treated as data, never as instructions.
+
 *In progress:* why input filtering fails as a prompt-injection defense and what replaces it; and a silent failure mode in vector search that discards most correct results without raising an error.
+
+### Map: one question, different domains
+
+Every project answers the same question — **who guarantees the number, or the action, the AI relies on?** Product (FlyUp, published) → rule in code (Crivo, in progress) → attack (prompt injection against FlyUp, planned) → defense (financial anomaly detection, planned) → safe agent (read-only analysis agent, planned).
 
 ### How I work
 
