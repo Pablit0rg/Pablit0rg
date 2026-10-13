@@ -10,7 +10,7 @@ Não venho da faculdade. Venho de escolher o problema, ler fundo a fonte primár
 
 ## O problema que eu escolhi resolver
 
-Software moderno delega decisões a componentes que **não conseguem distinguir instrução de dado**. Foi verdade em 1970, quando um compilador em tempo compartilhado usava a própria autoridade para sobrescrever o arquivo de faturamento do sistema. É verdade de novo em 2026, com agentes de IA que leem um documento e obedecem ao que está escrito dentro dele.
+Software moderno delega decisões a componentes que **não conseguem distinguir instrução de dado**. Foi verdade no fim dos anos 1970, quando um compilador em tempo compartilhado usava a própria autoridade para sobrescrever o arquivo de faturamento do sistema. É verdade de novo em 2026, com agentes de IA que leem um documento e obedecem ao que está escrito dentro dele.
 
 O nome do problema é antigo — *confused deputy*, o "delegado confuso". A conclusão prática também: **não adianta pedir para o componente se comportar melhor. A permissão precisa ser negada por fora, em código determinístico, por algo que não pode ser persuadido.**
 
@@ -23,7 +23,7 @@ Na prática, isso virou uma regra de projeto: **IA com acesso a dados e dinheiro
 ## Repositórios
 
 ### [`confused-deputy-demo`](https://github.com/Pablit0rg/confused-deputy-demo)
-Quatro demonstrações executáveis que ligam o bug de 1970 às vulnerabilidades de agentes de IA catalogadas pela OWASP em 2026. Cada ataque tem um teste que **asserta que a exploração funciona** na versão vulnerável — e para de funcionar na versão corrigida por capability. Python puro, biblioteca padrão, sem dependência externa. Bilíngue EN/PT.
+Quatro demonstrações executáveis que ligam o bug do fim dos anos 1970 às vulnerabilidades de agentes de IA catalogadas pela OWASP em 2026. Cada ataque tem um teste que **asserta que a exploração funciona** na versão vulnerável — e para de funcionar na versão corrigida por capability. Python puro, biblioteca padrão, sem dependência externa. Bilíngue EN/PT.
 
 ### [`flyup-folego`](https://github.com/Pablit0rg/flyup-folego)
 MVP publicado ([flyup-folego.lovable.app](https://flyup-folego.lovable.app)) para quem está em transição de carreira: quantos meses você aguenta se der o salto. O cálculo é determinístico e roda no navegador — **os valores financeiros nunca saem dele**. O servidor guarda só o contato, com consentimento explícito (LGPD). Row Level Security em todas as tabelas, apenas a chave pública no front-end, e auditoria do bundle publicado e do histórico do repositório antes de abrir o código. TypeScript · Lovable Cloud (Supabase).
@@ -99,7 +99,7 @@ I'm self-taught. My method is to pick the problem, read the primary source befor
 
 ### The problem I picked
 
-Modern software delegates decisions to components that **cannot tell an instruction from data**. That was true in the 1970s, when a time-sharing compiler used its own authority to overwrite the system's billing file. It's true again in 2026, with AI agents that read a document and obey whatever is written inside it.
+Modern software delegates decisions to components that **cannot tell an instruction from data**. That was true in the late 1970s, when a time-sharing compiler used its own authority to overwrite the system's billing file. It's true again in 2026, with AI agents that read a document and obey whatever is written inside it.
 
 The problem has an old name — the *confused deputy* — and an old conclusion: **you can't ask the component to behave better. The permission has to be denied from the outside, by deterministic code that cannot be talked out of it.**
 
@@ -107,7 +107,7 @@ In practice, that became a design rule: **AI with access to data and money needs
 
 ### Repositories
 
-**[`confused-deputy-demo`](https://github.com/Pablit0rg/confused-deputy-demo)** — Four runnable demos connecting the 1970s bug to the AI-agent vulnerabilities catalogued by OWASP in 2026. Each attack ships with a test that **asserts the exploit succeeds** against the vulnerable build, and stops succeeding once capability-based mitigation is in place. Pure Python, standard library only.
+**[`confused-deputy-demo`](https://github.com/Pablit0rg/confused-deputy-demo)** — Four runnable demos connecting the late-1970s bug to the AI-agent vulnerabilities catalogued by OWASP in 2026. Each attack ships with a test that **asserts the exploit succeeds** against the vulnerable build, and stops succeeding once capability-based mitigation is in place. Pure Python, standard library only.
 
 **[`flyup-folego`](https://github.com/Pablit0rg/flyup-folego)** — Published MVP ([flyup-folego.lovable.app](https://flyup-folego.lovable.app)) for people changing careers: how many months you can last if you make the jump. The calculation is deterministic and runs in the browser — **financial values never leave it**. The server stores only contact details, with explicit consent (LGPD). Row Level Security on every table, publishable key only on the front end, and an audit of the deployed bundle and repository history before opening the code.
 
