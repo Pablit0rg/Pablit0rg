@@ -82,7 +82,7 @@ Posição de desenvolvedor backend ou engenharia de plataforma/confiabilidade, j
 
 Se você está avaliando um candidato sem diploma: abra o `confused-deputy-demo`, leia o README e rode `python run_demo.py`. Leva cinco minutos e responde melhor do que qualquer currículo.
 
-**Contato:** [LinkedIn](https://linkedin.com/in/pablit0rg) · pablorosagomes@gmail.com
+**Contato:** [LinkedIn](https://www.linkedin.com/in/pablit0rg/) · pablorosagomes@gmail.com
 
 ---
 
@@ -133,6 +133,6 @@ Backend or platform/reliability engineering, junior level, remote or Curitiba-ba
 
 If you're evaluating a candidate with no degree: open `confused-deputy-demo`, read the README, run `python run_demo.py`. Five minutes, better signal than any CV.
 
-[LinkedIn](https://linkedin.com/in/pablit0rg) · pablorosagomes@gmail.com
+[LinkedIn](https://www.linkedin.com/in/pablit0rg/) · pablorosagomes@gmail.com
 
 </details>
