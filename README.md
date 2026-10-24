@@ -62,7 +62,8 @@ Rotina diária: leitura técnica dirigida, prática de código escrita à mão e
 
 ## Stack
 
-- **Backend** Python 3.13 · FastAPI · LangGraph · PostgreSQL · Supabase (RLS, pgvector) · pytest
+- **Qualidade** pytest · testes adversariais · CI no GitHub Actions · auditoria de código gerado por IA
+- **Sistemas que construo com agentes** Python 3.13 · FastAPI · LangGraph · PostgreSQL · Supabase (RLS, pgvector)
 - **Segurança** OWASP LLM Top 10 · controle de acesso por capability · modelagem de ameaças · guardrails determinísticos
 - **Infra** Git · Linux
 - **Web** TypeScript · Next.js · Tailwind
