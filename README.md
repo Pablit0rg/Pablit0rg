@@ -1,10 +1,10 @@
 # Pablo Rosa Gomes
 
-**Backend e segurança de aplicação, com foco em sistemas de IA · Python / FastAPI · Curitiba, PR · aberto a remoto**
+**QA e segurança de sistemas de IA · construo com agentes: especifico, testo e audito · Python / pytest · Curitiba, PR · aberto a remoto**
 
 Eu construo sistemas que continuam corretos e seguros quando alguém tenta quebrá-los de propósito.
 
-Não tenho diploma. Passei pelas Ciências Sociais na UFPR, sem concluir, e de lá trouxe o hábito de ler política, geopolítica e negócios junto com tecnologia. Na computação, venho de escolher o problema, ler fundo a fonte primária antes de decidir, e provar com teste que a solução funciona — e por que funciona. Uso modelos de linguagem como ferramenta de análise no processo, e audito tudo que sai deles antes de qualquer commit. O que está aqui é vivência, não exercício de curso: cada repositório carrega um argumento técnico que você verifica rodando o código. Nenhum deles é o mais complexo ou o mais exótico possível. São o mais simples que resolve, e o mais seguro que eu consegui.
+Não tenho diploma. Passei pelas Ciências Sociais na UFPR, sem concluir, e de lá trouxe o hábito de ler política, geopolítica e negócios junto com tecnologia. Na computação, venho de escolher o problema, ler fundo a fonte primária antes de decidir, e provar com teste que a solução funciona — e por que funciona. Construo com agentes de IA: o código é escrito por eles; a especificação, a verificação e a aprovação de cada commit são minhas. O que está aqui é vivência, não exercício de curso: cada repositório carrega um argumento técnico que você verifica rodando o código. Nenhum deles é o mais complexo ou o mais exótico possível. São o mais simples que resolve, e o mais seguro que eu consegui.
 
 ---
 
@@ -72,13 +72,13 @@ Rotina diária: leitura técnica dirigida, prática de código escrita à mão e
 
 ## Trabalho não público
 
-Mantenho um sistema de agentes proprietário, em repositório privado, com pipeline de recuperação vetorial, orquestração por grafo de estados e uma camada de guardrails com aplicação determinística, protegido por quality gate de CI no GitHub Actions (pytest, TypeScript e ESLint). É de onde vêm boa parte dos problemas que eu publico aqui, generalizados e sem o código do produto. Posso falar sobre a arquitetura em entrevista.
+Mantenho um sistema de agentes proprietário, em repositório privado, com pipeline de recuperação vetorial, orquestração por grafo de estados e uma camada de guardrails com aplicação determinística, protegido por quality gate de CI no GitHub Actions (pytest, TypeScript e ESLint). Em menos de seis meses, conduzi com agentes cerca de 27 mil linhas em Python e TypeScript, com 450 testes automatizados e 15 migrations. É de onde vêm boa parte dos problemas que eu publico aqui, generalizados e sem o código do produto. Posso falar sobre a arquitetura em entrevista.
 
 ---
 
 ## O que eu procuro
 
-Posição de desenvolvedor backend ou engenharia de plataforma/confiabilidade, júnior, remota ou em Curitiba. Time que revisa código de verdade e que valoriza quem pergunta "o que acontece quando isso falha?" antes do deploy.
+Posição júnior em QA ou qualidade e segurança de sistemas de IA, remota ou em Curitiba. Time que revisa código de verdade e que valoriza quem pergunta "o que acontece quando isso falha?" antes do deploy.
 
 Se você está avaliando um candidato sem diploma: abra o `confused-deputy-demo`, leia o README e rode `python run_demo.py`. Leva cinco minutos e responde melhor do que qualquer currículo.
 
@@ -91,11 +91,11 @@ Se você está avaliando um candidato sem diploma: abra o `confused-deputy-demo`
 
 ## Pablo Rosa Gomes
 
-**Backend and application security, focused on AI systems · Python / FastAPI · Curitiba, Brazil · open to remote**
+**QA and security for AI systems · I build with agents: I specify, test and audit · Python / pytest · Curitiba, Brazil · open to remote**
 
 I build systems that stay correct and secure when someone is actively trying to break them.
 
-I have no degree. I studied Social Sciences at UFPR without finishing, and kept the habit of reading politics, geopolitics and business alongside technology. In computing, I'm self-taught: I pick the problem, read the primary source before deciding, and prove with tests that the solution works — and why it works. I use language models as an analysis tool in that process, and I audit everything they produce before any commit. What's here is lived work, not coursework: every repository carries a technical argument you can verify by running the code. None of them is the most complex or the most exotic option. They're the simplest thing that solves the problem, and the most secure I could make it.
+I have no degree. I studied Social Sciences at UFPR without finishing, and kept the habit of reading politics, geopolitics and business alongside technology. In computing, I'm self-taught: I pick the problem, read the primary source before deciding, and prove with tests that the solution works — and why it works. I build with AI agents: they write the code; the specification, the verification and the approval of every commit are mine. What's here is lived work, not coursework: every repository carries a technical argument you can verify by running the code. None of them is the most complex or the most exotic option. They're the simplest thing that solves the problem, and the most secure I could make it.
 
 ### The problem I picked
 
@@ -125,11 +125,11 @@ Sources before opinions — if I can't cite it, I don't claim it. Tests that pro
 
 ### Not public
 
-I maintain a proprietary agent system in a private repository: vector retrieval pipeline, state-graph orchestration, and a guardrail layer with deterministic enforcement, behind a CI quality gate on GitHub Actions (pytest, TypeScript and ESLint). Most of the problems I publish here come from there, generalised and stripped of product code. Happy to walk through the architecture in an interview.
+I maintain a proprietary agent system in a private repository: vector retrieval pipeline, state-graph orchestration, and a guardrail layer with deterministic enforcement, behind a CI quality gate on GitHub Actions (pytest, TypeScript and ESLint). In under six months I led agents through about 27,000 lines of Python and TypeScript, with 450 automated tests and 15 migrations. Most of the problems I publish here come from there, generalised and stripped of product code. Happy to walk through the architecture in an interview.
 
 ### Looking for
 
-Backend or platform/reliability engineering, junior level, remote or Curitiba-based. A team that reviews code properly and values the person who asks "what happens when this fails?" before the deploy.
+Junior role in QA or quality and security of AI systems, remote or Curitiba-based. A team that reviews code properly and values the person who asks "what happens when this fails?" before the deploy.
 
 If you're evaluating a candidate with no degree: open `confused-deputy-demo`, read the README, run `python run_demo.py`. Five minutes, better signal than any CV.
 
