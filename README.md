@@ -73,7 +73,7 @@ Rotina diária: leitura técnica dirigida, prática de código escrita à mão e
 
 ## Trabalho não público
 
-Mantenho um sistema de agentes proprietário, em repositório privado, com pipeline de recuperação vetorial, orquestração por grafo de estados e uma camada de guardrails com aplicação determinística, protegido por quality gate de CI no GitHub Actions (pytest, TypeScript e ESLint). Em menos de seis meses, conduzi com agentes cerca de 27 mil linhas em Python e TypeScript, com 450 testes automatizados e 15 migrations. É de onde vêm boa parte dos problemas que eu publico aqui, generalizados e sem o código do produto. Posso falar sobre a arquitetura em entrevista.
+Mantenho um sistema de agentes proprietário, em repositório privado, com pipeline de recuperação vetorial, orquestração por grafo de estados e uma camada de guardrails com aplicação determinística, protegido por quality gate de CI no GitHub Actions (pytest, TypeScript e ESLint). Em menos de seis meses, conduzi com agentes cerca de 26 mil linhas em Python e TypeScript, com 440 testes automatizados. É de onde vêm boa parte dos problemas que eu publico aqui, generalizados e sem o código do produto. Posso falar sobre a arquitetura em entrevista.
 
 ---
 
@@ -126,7 +126,7 @@ Sources before opinions — if I can't cite it, I don't claim it. Tests that pro
 
 ### Not public
 
-I maintain a proprietary agent system in a private repository: vector retrieval pipeline, state-graph orchestration, and a guardrail layer with deterministic enforcement, behind a CI quality gate on GitHub Actions (pytest, TypeScript and ESLint). In under six months I led agents through about 27,000 lines of Python and TypeScript, with 450 automated tests and 15 migrations. Most of the problems I publish here come from there, generalised and stripped of product code. Happy to walk through the architecture in an interview.
+I maintain a proprietary agent system in a private repository: vector retrieval pipeline, state-graph orchestration, and a guardrail layer with deterministic enforcement, behind a CI quality gate on GitHub Actions (pytest, TypeScript and ESLint). In under six months I led agents through about 26,000 lines of Python and TypeScript, with 440 automated tests. Most of the problems I publish here come from there, generalised and stripped of product code. Happy to walk through the architecture in an interview.
 
 ### Looking for
 
