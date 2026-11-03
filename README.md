@@ -98,6 +98,8 @@ Se você está avaliando um candidato sem diploma: abra o `confused-deputy-demo`
 
 I build systems that stay correct and secure when someone is actively trying to break them.
 
+My focus is the intersection of QA automation, LLM evaluation and AI security (OWASP LLM Top 10).
+
 I have no degree. I studied Social Sciences at UFPR without finishing, and kept the habit of reading politics, geopolitics and business alongside technology. In computing, I'm self-taught: I pick the problem, read the primary source before deciding, and prove with tests that the solution works — and why it works. I build with AI agents: they write the code; the specification, the verification and the approval of every commit are mine. What's here is lived work, not coursework: every repository carries a technical argument you can verify by running the code. None of them is the most complex or the most exotic option. They're the simplest thing that solves the problem, and the most secure I could make it.
 
 ### The problem I picked
