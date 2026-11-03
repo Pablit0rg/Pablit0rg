@@ -4,6 +4,8 @@
 
 Eu construo sistemas que continuam corretos e seguros quando alguém tenta quebrá-los de propósito.
 
+Meu foco está na interseção de QA de automação, avaliação de LLMs e segurança de IA (OWASP LLM Top 10).
+
 Não tenho diploma. Passei pelas Ciências Sociais na UFPR, sem concluir, e de lá trouxe o hábito de ler política, geopolítica e negócios junto com tecnologia. Na computação, venho de escolher o problema, ler fundo a fonte primária antes de decidir, e provar com teste que a solução funciona — e por que funciona. Construo com agentes de IA: o código é escrito por eles; a especificação, a verificação e a aprovação de cada commit são minhas. O que está aqui é vivência, não exercício de curso: cada repositório carrega um argumento técnico que você verifica rodando o código. Nenhum deles é o mais complexo ou o mais exótico possível. São o mais simples que resolve, e o mais seguro que eu consegui.
 
 ---
